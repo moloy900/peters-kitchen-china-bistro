@@ -1,0 +1,41 @@
+header {
+    background-color: #ffffff;
+    padding: 0;
+    border-bottom: 2px solid rgba(0,0,0,.1);;
+    box-shadow: 0 -4px 4px rgba(0,0,0,.1);
+    font-size: 21px;
+}
+
+a {
+    color: #db5e5e
+}
+
+a:hover {
+    cursor: pointer;
+
+}
+
+.container {
+    margin: 0 auto;
+    /* top-bottom and left-right*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #db5e5e;
+    font-family: Open Sans Condensed,sans-serif;
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a {
+    padding: 1rem;
+    display: inline-block;
+    font-family: Open Sans Condensed, sans-serif;
+}
